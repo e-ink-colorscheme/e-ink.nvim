@@ -6,7 +6,7 @@ local function set_hl(group, styles)
    vim.api.nvim_set_hl(0, group, styles)
 end
 
-function M.generate_syntax()
+function M.generate_syntax(fg_contrast)
    local set_var = vim.api.nvim_set_var
    local mono = require("e-ink.palette").mono()
    local everforest = require("e-ink.palette").everforest()

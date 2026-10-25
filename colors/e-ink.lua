@@ -1,1 +1,1 @@
-require("e-ink").setup()
+require("e-ink").load()
